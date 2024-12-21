@@ -1,0 +1,42 @@
+/* contact us form */
+.contactContainer {
+  padding: 1rem var(--padding-clamp);
+  color: var(--black);
+  display: flex;
+  flex-flow: column;
+  gap: 2rem;
+}
+.contactContainer .contactForm {
+  display: flex;
+  flex-flow: column;
+  gap: 2rem;
+}
+.contactContainer .contactForm > h3 {
+  font-size: 1.4rem;
+  color: var(--accent-color);
+}
+
+.contactContainer .contactInfo {
+  display: flex;
+  flex-flow: column;
+  gap: 2rem;
+}
+
+.contactContainer .contactInfo .info {
+  display: flex;
+  flex-flow: column;
+  gap: 1rem;
+}
+
+.contactContainer .contactInfo .info > li {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-weight: bold;
+  font-size: clamp(1rem, 2vw, 1.4rem);
+}
+
+.contactContainer .contactInfo .info > li > a {
+  color: var(--accent-color);
+  font-size: 0.9rem;
+}

@@ -1,0 +1,89 @@
+.home {
+  margin-bottom: 2rem;
+}
+
+.home > header {
+  height: 100vh;
+  height: 100dvh;
+  background-image: url("../../../assets/images/header-hero.jpg");
+  background-position: center;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.75);
+  background-blend-mode: overlay;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+  gap: 0.5rem;
+  padding: 0 var(--padding-clamp);
+  color: var(--white);
+}
+.home > header > * {
+  text-align: center;
+}
+.home > header > h1 {
+  font-size: clamp(2rem, 4vw, 3rem);
+}
+.home > header > p {
+  font-size: 0.9rem;
+}
+
+.home > section {
+  padding: 1rem var(--padding-clamp);
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  width: 100%;
+}
+
+/* home about */
+.homeAbout {
+  display: flex;
+  flex-flow: column;
+  gap: 1rem;
+
+  > h2 {
+    font-size: 1.5rem;
+  }
+
+  > p {
+    font-size: 0.9rem;
+    display: flex;
+    flex-flow: column;
+  }
+}
+
+/* latest properties */
+.section-three,
+.section-five {
+  > :nth-child(1) {
+    > h2 {
+      font-size: 1.5rem;
+    }
+    > p {
+      font-size: 0.9rem;
+    }
+    > * {
+      text-align: center;
+    }
+  }
+}
+
+/* section four */
+.section-four {
+  > h2 {
+    font-size: 1.4rem;
+  }
+}
+
+/* contact section */
+.section-five {
+  background-color: var(--black);
+
+  h2 {
+    color: var(--accent-color);
+  }
+  p {
+    color: var(--white);
+  }
+}

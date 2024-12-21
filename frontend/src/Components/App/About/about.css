@@ -1,0 +1,36 @@
+.about .aboutTop {
+  padding: 2rem var(--padding-clamp);
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3rem;
+}
+.about .aboutTop > * {
+  flex-grow: 1;
+  width: 40%;
+  min-width: 17rem;
+  display: flex;
+  flex-flow: column;
+  gap: 1rem;
+}
+.about .aboutTop > img {
+  border-radius: 1rem;
+  height: 50vh;
+  max-height: 17rem;
+}
+.about .aboutTop > * > h2 {
+  color: var(--accent-color);
+}
+.about .aboutTop > * > p {
+  font-size: 0.9rem;
+  text-align: justify;
+}
+
+.about > section {
+  padding: 2rem var(--padding-clamp);
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  gap: 1rem;
+}

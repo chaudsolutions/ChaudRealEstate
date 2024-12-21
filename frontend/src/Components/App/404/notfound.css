@@ -1,0 +1,29 @@
+.not-found {
+  padding: 1rem var(--padding-clamp);
+
+  > :last-child {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    gap: 0.5rem;
+
+    > p {
+      text-align: center;
+      font-size: 0.9rem;
+    }
+
+    > button {
+      background-color: var(--accent-color);
+      color: black;
+      padding: 0.5rem;
+      border-radius: 0.5rem;
+      font-weight: bold;
+
+      &:hover {
+        transform: scale(0.9);
+        background-color: var(--accent-color-dark);
+        color: var(--white);
+      }
+    }
+  }
+}

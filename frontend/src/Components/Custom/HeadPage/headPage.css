@@ -1,0 +1,23 @@
+.head-page {
+  background-image: url("../../../assets/images/headPage.jpg");
+  background-color: rgba(0, 0, 0, 0.75);
+  background-blend-mode: overlay;
+  background-size: cover;
+  background-position: center;
+  color: var(--white);
+  padding: 1rem var(--padding-clamp);
+  min-height: 35vh;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  width: 100%;
+
+  > h1 {
+    font-size: 1.7rem;
+  }
+}
+@media screen and (min-width: 767px) {
+  .head-page {
+    min-height: 50vh;
+  }
+}
